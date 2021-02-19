@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     string day_input;
-    vector<string>all_days{"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+    const vector<string>all_days{"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
 
     // Input Validation Is Not Necessarily Required In This Task.
     cout << "What day is it today?" << endl;
