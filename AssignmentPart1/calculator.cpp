@@ -41,21 +41,21 @@ int main(){
     int option;
 
     // prompt for input
-	cout << "Enter the first number " << endl;
-	cin >> input1;
+    cout << "Enter the first number " << endl;
+    cin >> input1;
     calculator_obj.set_first_number(input1);
 	
-	cout << "Enter the second number " << endl;
-	cin >> input2;
+    cout << "Enter the second number " << endl;
+    cin >> input2;
     calculator_obj.set_second_number(input2);
 
     cout << "What calculation you want to do?" << endl;
-	cout << "Choose the following option:" << endl;
-	cout << "choose 1: addition" << endl;
-	cout << "choose 2: subtraction" << endl;
-	cout << "choose 3: multiplication" << endl;
-	cout << "choose 4: division" << endl;
-	cin >> option;
+    cout << "Choose the following option:" << endl;
+    cout << "choose 1: addition" << endl;
+    cout << "choose 2: subtraction" << endl;
+    cout << "choose 3: multiplication" << endl;
+    cout << "choose 4: division" << endl;
+    cin >> option;
 
     switch (option){
         case 1:
