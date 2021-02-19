@@ -21,9 +21,8 @@ int main(){
             isfound = true;
             cout << "found in index" << " " << i << endl;
         }
-        else if(isfound = false){
-            cout << "Data Not Found.";
-        }
     }
-
+    if(isfound = false){
+    	cout << "Data Not Found.";
+    }
 }
