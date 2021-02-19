@@ -8,7 +8,7 @@ int main(){
 
     // Input Validation Is Not Necessarily Required In This Task.
     cout << "What day is it today?" << endl;
-	cin >> day_input;
+    cin >> day_input;
 
     /*
         If Input Is Found In String Vector:
