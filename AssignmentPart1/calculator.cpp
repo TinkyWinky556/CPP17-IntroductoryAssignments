@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Encapsulation Is Implemented In Order To Set & Get First & Second Numbers.
+// Encapsulation Is Implemented In Order To Set & Use First & Second Numbers.
 class my_calculator {
     private:
     double my_num1;
