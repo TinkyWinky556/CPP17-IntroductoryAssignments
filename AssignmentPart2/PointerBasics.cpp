@@ -3,12 +3,12 @@ using namespace std;
 
 int main(){
 
-	signed int x = 99;
+    signed int x = 99;
 
     cout << "The content of x is " << x << endl;
-	cout << "The address of x is " << &x << endl;
+    cout << "The address of x is " << &x << endl;
 
-	// your code here :
+    // your code here :
     // Create a pointer variable and assign the address of the variable defined in step 1 to it.
     int *ptr = &x;
 
