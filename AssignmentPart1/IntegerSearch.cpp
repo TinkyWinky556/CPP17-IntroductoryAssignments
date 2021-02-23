@@ -22,7 +22,7 @@ int main(){
             cout << "found in index" << " " << i << endl;
         }
     }
-    if(isfound = false){
+    if(isfound == false){
     	cout << "Data Not Found.";
     }
 }
