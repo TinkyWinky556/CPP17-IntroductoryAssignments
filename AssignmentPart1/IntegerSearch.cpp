@@ -8,7 +8,7 @@ int main(){
 	int ROW = 9;
 	const vector<int>Data{3,49,1,6,33,13,9,4,6};
 	int key;
-    bool isfound;
+        bool isfound;
 	
 	// prompt the search key.
 	cout << "What data are you searching for?" << endl;
