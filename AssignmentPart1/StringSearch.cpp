@@ -17,7 +17,7 @@ int main(){
         }
 
     }
-    if(isfound = false){
+    if(isfound == false){
         cout << "Data Not Found.";
     }
 
