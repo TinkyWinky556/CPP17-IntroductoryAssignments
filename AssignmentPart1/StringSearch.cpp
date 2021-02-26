@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     string search;
-    bool isfound;
+    bool isfound = false;
     const vector<string>names{"Nicky","David","Guntur","Cindy","Rizqy","James"};
 
     cout << "What data are you searching for?" << endl;
