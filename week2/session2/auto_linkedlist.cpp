@@ -48,7 +48,7 @@ int main(){
         n_start++;
     }
 
-	// print
+	
     cout << "\n" << endl;
     current = head;
     while(current != nullptr){
