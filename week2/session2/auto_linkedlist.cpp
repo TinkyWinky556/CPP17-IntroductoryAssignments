@@ -9,16 +9,16 @@ struct Student {
 };
 
 int main(){
-	Student* head;
-	Student* current;
-	Student* newnode;
+    Student* head;
+    Student* current;
+    Student* newnode;
 
-	int sid;
-	string sname;
-	double sgpa;
+    int sid;
+    string sname;
+    double sgpa;
     int n_start = 1; 
 
-	//input values and it will automatically put it into the linked list
+
     //stop after 4 nodes has been created.
     while(n_start <= 4){
         cout << "Enter student id: ";
