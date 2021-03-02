@@ -32,24 +32,25 @@ class Shape{
 };
 
 // Create a sub class Rectangle which inherits the Shape class.
-class Rectangle: public Shape{
+class Triangle: public Shape{
     // Override the function to calculate area.
     public:
     double get_area(){
-        return height * width;
+        return 0.5 * height * width;
     }
 };
 
 int main(){
     // In the main function. create objects of a derived class.
-    Rectangle MyObj;
+    Triangle MyObj;
 
     // Access its member data and invoke its methods.
     MyObj.set_height(32.4);
+    // Width = Base.
     MyObj.set_width(29.5);
 
-    // Access Overridden Method In Rectangle Class.
-    Rectangle* ptr = &MyObj;
+    // Access Overridden Method In Triangle Class.
+    Triangle* ptr = &MyObj;
     cout << ptr->get_area();
 
     return 0;
