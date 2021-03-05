@@ -39,6 +39,7 @@ int main(){
                 break;
 
             case 5:
+                // Force Terminal Exit
                 exit(0);
                 break;
         }
