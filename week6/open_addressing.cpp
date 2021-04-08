@@ -2,7 +2,6 @@
 using namespace std;
 
 template <typename K, typename V>
-
 class HashNode{
     public:
         K key;
@@ -15,7 +14,6 @@ class HashNode{
 };
 
 template <typename K, typename V>
-
 class HashMap{
         // Array Of Hash Nodes.
         HashNode<K, V> **array;
