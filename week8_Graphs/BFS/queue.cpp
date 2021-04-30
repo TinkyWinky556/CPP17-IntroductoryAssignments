@@ -6,13 +6,11 @@
 
 using namespace std;
 
-/*
 Queue::Queue()
 {
 	int front = -1;
 	int rear = -1;	
 }
-*/
 
 void Queue::insert(const int& num)
 {
