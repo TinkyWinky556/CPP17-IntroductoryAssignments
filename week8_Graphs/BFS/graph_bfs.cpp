@@ -62,7 +62,7 @@ void Graph::BFS(const int& start_vertex){
 
 	cout << "Visited Vertices :" << "\n";
 	while(!MyQueue.empty()){
-		// Visit FrontMost Element In Queue, Then Remove It From The Queue.
+		// Visit FrontMost Element In Queue, Which Was The Specified Vertex, Then Remove It From The Queue.
 		int this_vertex = MyQueue.peek();
 		cout << this_vertex << "\n";
 		MyQueue.delete_element();
