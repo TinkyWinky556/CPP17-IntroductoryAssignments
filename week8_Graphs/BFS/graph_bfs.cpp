@@ -18,6 +18,7 @@ class Graph{
 
 	public:
 		Graph();
+		~Graph();
 
 		/*
 			Path :
@@ -32,6 +33,11 @@ Graph::Graph(){
 	this->numVertices = NUM_VERTICES;
 	this->adjLists = new list<int>[NUM_VERTICES];
 	this->visited = new bool[NUM_VERTICES];
+}
+
+Graph::~Graph(){
+	this->adjLists = nullptr;
+	this->visited = nullptr;
 }
 
 void Graph::addEdge(const int& source, const int& destination){
